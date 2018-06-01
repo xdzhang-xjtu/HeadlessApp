@@ -9,8 +9,11 @@ Run
 ###########
 
 Two ways run a headless eclipse application, as follows,
-1. java -jar ./plugins/org.eclipse.equinox.launcher_xxxx.jar -application (plug-in ID).(extension ID);
-2. eclipse -application (plug-in ID).(extension ID).
+1. java -consoleLog -console -nosplash -jar ./plugins/org.eclipse.equinox.launcher_xxxx.jar -application (plug-in ID).(extension ID);
+2. eclipse -consoleLog -console -nosplash -application (plug-in ID).(extension ID).
+
+The plugin ID is at the overview page.
+The extension ID is set at the link of extension.
 
 Note
 ###########

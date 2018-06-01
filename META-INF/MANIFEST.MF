@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: HeadlessApp
-Bundle-SymbolicName: HeadlessApp;singleton:=true
+Bundle-SymbolicName: com.baidu.xdzhang;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: com.baidu.xdzhang.Activator
 Require-Bundle: org.eclipse.core.runtime
