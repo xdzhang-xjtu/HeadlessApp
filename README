@@ -1,0 +1,13 @@
+Usage
+###########
+
+It is an example for headless eclipse application, which invokes the api from CDT or JDT.
+The approach to build a headless eclipse application is in website https://wiki.eclipse.org/FAQ_How_do_I_create_an_application%3F 
+Import this project into eclipse as a plugin project. Export as a deployable plugin project. Copy the generated plugin jar into the dir plugins of eclipse application.
+
+Run
+###########
+
+Two ways run a headless eclipse application, as follows,
+1. java -jar ./plugins/org.eclipse.equinox.launcher_xxxx.jar -application (plug-in ID).(extension ID);
+2. eclipse -application (plug-in ID).(extension ID).
