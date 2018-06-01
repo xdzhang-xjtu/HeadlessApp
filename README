@@ -17,4 +17,4 @@ The extension ID is set at the link of extension.
 
 Note
 ###########
-From the tab depandencies import the package you need, such as org.eclipse.core.resources.
+From the tab depandencies,  you can import the package you need, such as org.eclipse.core.resources.

@@ -20,6 +20,13 @@ public class HeadlessApplication implements IApplication {
 		for (IProject project : projects) {
 			System.out.println(project.getName());
 		}
+		
+		//get the args form command line
+		String[] appArgs = (String[])context.getArguments().get(IApplicationContext.APPLICATION_ARGS);
+		for (int i = 0; i < appArgs.length; i++) {
+			System.out.println(appArgs[i]);
+		}
+		
 		return null;
 	}
 
