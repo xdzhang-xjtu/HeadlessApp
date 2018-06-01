@@ -11,3 +11,7 @@ Run
 Two ways run a headless eclipse application, as follows,
 1. java -jar ./plugins/org.eclipse.equinox.launcher_xxxx.jar -application (plug-in ID).(extension ID);
 2. eclipse -application (plug-in ID).(extension ID).
+
+Note
+###########
+From the tab depandencies import the package you need, such as org.eclipse.core.resources.
