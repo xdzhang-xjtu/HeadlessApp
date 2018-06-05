@@ -26,7 +26,6 @@ public class HeadlessApplication implements IApplication {
 		for (int i = 0; i < appArgs.length; i++) {
 			System.out.println(appArgs[i]);
 		}
-		
 		return null;
 	}
 
